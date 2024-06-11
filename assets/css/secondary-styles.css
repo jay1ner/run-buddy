@@ -1,6 +1,5 @@
 .hero {
-    background-image: url(../assets/images/hero-bg.jpg);
-    background-image: url(C:/Users/Jay/Desktop/Projects/run-buddy/assets/images/hero-bg.jpg);
+    background-image: url('../images/hero-bg.jpg');
     background-position: bottom;
     height: auto;
     text-align: center;
