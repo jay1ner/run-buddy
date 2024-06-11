@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
+
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
@@ -70,6 +72,7 @@ section {
 }
 
 /* Hero Style Start */
+
 .hero {
     background-image: url("C:/Users/Jay/Desktop/Projects/run-buddy/assets/images/hero-bg.jpg");
     height: 600px;
@@ -77,6 +80,7 @@ section {
     background-position: center;
     position: relative;
 }
+
 /* Hero Style End */
 
 .hero-form {
@@ -138,28 +142,11 @@ section {
     background: #fce138;
 }
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
 .steps div {
     margin-bottom: 80px;
 }
 
-.steps img{
+.steps img {
     width: 15%;
     margin: 10px 0;
 }
@@ -177,6 +164,23 @@ section {
 
 .steps span {
     font-size: 38px;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
 }
 
 .trainers {
@@ -204,7 +208,7 @@ section {
     overflow: auto;
 }
 
-.trainer-bio {
+.trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
 }
